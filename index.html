@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>牛马日志｜严肃记录真实工时</title>
   <meta name="description" content="牛马日志是一款面向打工人的个人工时记录工具，用轻松的方式记录打工日常，用严肃的账本保存真实工时。">
-  <link rel="stylesheet" href="./styles.css?v=20260831-android-download">
+  <link rel="stylesheet" href="./styles.css?v=20260831-platform-requirements">
   <script src="./site.js?v=20260608-menu-dismiss" defer></script>
 </head>
 <body class="page-home">
@@ -41,16 +41,23 @@
         <h1>用轻松的方式记录打工日常，用严肃的账本保存真实工时。</h1>
         <p class="hero-lede">牛马日志记录上班、下班、午休、加班和薪资估算。它不是按固定排班猜你的工作时间，而是在系统权限允许时，尽量贴近真实到岗和离开时间。</p>
         <div class="hero-actions">
-          <a class="primary-button" href="https://apps.apple.com/app/id6775545384">App Store 获取</a>
-          <a
-            class="ghost-button android-download-button"
-            href="https://gitee.com/niumalog/niumalog-android/releases/download/v2.0.1-build15-android-beta.1/niumalog-2.0.1-arm64-v8a.apk"
-            aria-describedby="android-download-note"
-          >Android 测试版</a>
+          <div class="platform-download-option">
+            <a
+              class="primary-button"
+              href="https://apps.apple.com/app/id6775545384"
+              aria-describedby="ios-system-requirement"
+            >App Store 获取</a>
+            <p class="platform-system-requirement" id="ios-system-requirement">需 iOS 14 或更高版本</p>
+          </div>
+          <div class="platform-download-option">
+            <a
+              class="primary-button android-download-button"
+              href="https://gitee.com/niumalog/niumalog-android/releases/download/v2.0.1-build15-android-beta.1/niumalog-2.0.1-arm64-v8a.apk"
+              aria-describedby="android-system-requirement"
+            >Android 测试版</a>
+            <p class="platform-system-requirement" id="android-system-requirement">需 Android 11 或更高版本</p>
+          </div>
         </div>
-        <p class="android-download-note" id="android-download-note">
-          Android 2.0.1（Build 15）测试版 · 需 Android 11 或更高版本 · 仅支持 64 位 ARM 设备
-        </p>
         <div class="mobile-hero-preview" aria-label="牛马日志移动端首页功能预览">
           <div class="mobile-feature-stack">
             <span>本地保存</span>
