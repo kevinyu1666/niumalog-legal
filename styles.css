@@ -241,6 +241,19 @@ h3 {
   background: rgba(255, 255, 255, 0.04);
 }
 
+.android-download-button {
+  border-color: rgba(34, 242, 214, 0.34);
+  background: rgba(34, 242, 214, 0.07);
+}
+
+.android-download-note {
+  max-width: 660px;
+  margin: -8px 0 24px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
 .hero-notes {
   display: flex;
   flex-wrap: wrap;
@@ -1004,6 +1017,12 @@ h3 {
     width: 100%;
     min-height: 50px;
     padding-inline: 18px;
+  }
+
+  .page-home .android-download-note {
+    max-width: 318px;
+    margin: -4px auto 4px;
+    text-align: center;
   }
 
   .page-home .hero-notes,
